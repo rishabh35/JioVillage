@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js consumer">
+
+<head >
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title aria-label="जियो गांव">Jiyo Village</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button  type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a aria-label="जियो गांव" class="navbar-brand" href="#page-top">Jiyo Village</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a aria-label="यहां दबाएं" href="#portfolio">योजना</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container" id="maincontent" tabindex="-1">
+            <div class="row">
+                <div class="col-lg-12">
+                  <img class="img-responsive" src="img/profile.png" alt="">
+                    <div class="intro-text">
+                        <h1 aria-hidden="true" aria-label="जियो गांव" class="name" >Jiyo Village</h1>
+                        <div id="div_start">
+		  	<button aria-hidden="true" aria-label="यहां दबाएं" id="start_button" onclick="startButton(event)"><img aria-label="यहां दबाएं" alt="Start" id="start_img" src="img/mic.gif">
+		  	</button>
+		</div>
+                        <h1 aria-label="मैं आप की मदद करने के लिए यहां हूं | मुझसे कुछ भी पूछो">मैं आप की मदद करने के लिए यहां हूं | मुझसे कुछ भी पूछो</h1>
+                        <hr class="star-light">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>योजन</h1>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row" aria-hidden="true">
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/rice.png" class="img-responsive">
+                    </a>
+                </div>
+
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/pensioner.png" class="img-responsive" >
+                    </a>
+                </div>
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/girl.png" class="img-responsive">
+                    </a>
+                </div>
+
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/social.png" class="img-responsive">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2 aria-label="अंत्योदय अन्न योजना">अंत्योदय अन्न योजना</h2>
+                            <hr class="star-primary">
+                            <img src="img/rice.png" class="img-responsive img-centered" alt="">
+                            <p aria-label="इस योजना के अंतर्गत गरीबी रेखा से नीचे वाले परिवारों के सबसे गरीब 1 करोड़ लोगों को लक्षित सार्वजनिक वितरण प्रणाली के तहत शामिल किया गया है।
+राशन कार्ड जारी करना अंत्योदय परिवारों की मान्यता के बाद, चुनावी शक्ति द्वारा अंत्योदय परिवारों को एक अंत्योदय राशन कार् मान्यता प्राप्त करने के लिए अद्वितीय कोटा कार्डों को दिया जाना चाहिए।
+जून 2003 और अगस्त 2004 में अतिरिक्त 50 लाख बीपीएल परिवारों द्वारा इस योजना का दो बार विस्तार किया गया है, इस प्रकार आइए योजना के अंतर्गत 2 करोड़ परिवारों को कवर किया जा रहा है।">इस योजना के अंतर्गत गरीबी रेखा से नीचे वाले परिवारों के सबसे गरीब 1 करोड़ लोगों को लक्षित सार्वजनिक वितरण प्रणाली के तहत शामिल किया गया है।
+राशन कार्ड जारी करना अंत्योदय परिवारों की मान्यता के बाद, चुनावी शक्ति द्वारा अंत्योदय परिवारों को एक "अंत्योदय राशन कार्ड" मान्यता प्राप्त करने के लिए अद्वितीय कोटा कार्डों को दिया जाना चाहिए।
+जून 2003 और अगस्त 2004 में अतिरिक्त 50 लाख बीपीएल परिवारों द्वारा इस योजना का दो बार विस्तार किया गया है, इस प्रकार आइए योजना के अंतर्गत 2 करोड़ परिवारों को कवर किया जा रहा है।</p>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h1 aria-label="atal penshan yojana">अटल पेंशन योजना</h1>
+                            <hr class="star-primary">
+                            <img src="img/pensioner.png" class="img-responsive img-centered" alt="">
+                            <p aria-label="अटल पेंशन योजना में, पेंशन निधि के लिए किए गए प्रत्येक योगदान के लिए, केंद्र सरकार, कुल पात्रता का 50% या प्रति वर्ष 1,000 रुपये (यूएस $ 16) प्रति वर्ष, जो भी कम हो, प्रत्येक पात्र ग्राहक खाते में सह-अंशदान करेगी। 5 साल की अवधि एपीवाई में शामिल होने की न्यूनतम आयु 18 वर्ष है और अधिकतम उम्र 40 वर्ष है। बाहर निकलने की आयु और पेंशन की शुरुआत 60 साल होगी। इसलिए, एपीवाई के अंतर्गत ग्राहक द्वारा न्यूनतम अंशदान 20 वर्ष या उससे अधिक होगा
+स्वर्णजयंती ग्राम स्वरोजगार योजना (एसजीएसवाई) भारत सरकार द्वारा देश के ग्रामीण और शहरी क्षेत्रों में रहने वाले गरीबों के गरीबों को स्थायी आय प्रदान करने के लिए एक पहल की गई है। यह योजना 1 अप्रैल 1999 को शुरू हुई थी।">अटल पेंशन योजना में, पेंशन निधि के लिए किए गए प्रत्येक योगदान के लिए, केंद्र सरकार, कुल पात्रता का 50% या प्रति वर्ष 1,000 रुपये (यूएस $ 16) प्रति वर्ष, जो भी कम हो, प्रत्येक पात्र ग्राहक खाते में सह-अंशदान करेगी। 5 साल की अवधि एपीवाई में शामिल होने की न्यूनतम आयु 18 वर्ष है और अधिकतम उम्र 40 वर्ष है। बाहर निकलने की आयु और पेंशन की शुरुआत 60 साल होगी। इसलिए, एपीवाई के अंतर्गत ग्राहक द्वारा न्यूनतम अंशदान 20 वर्ष या उससे अधिक होगा
+स्वर्णजयंती ग्राम स्वरोजगार योजना (एसजीएसवाई) भारत सरकार द्वारा देश के ग्रामीण और शहरी क्षेत्रों में रहने वाले गरीबों के गरीबों को स्थायी आय प्रदान करने के लिए एक पहल की गई है। यह योजना 1 अप्रैल 1999 को शुरू हुई थी।</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" >
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2 arai-label="कस्तूरबा गांधी बालिका विद्यालय योजना">कस्तूरबा गांधी बालिका विद्यालय योजना</h2>
+                            <hr class="star-primary">
+                            <img src="img/girl.png" class="img-responsive img-centered" alt="">
+                            <p aria-label="कस्तूरबा गांधी बालिका विद्यालय योजना भारत सरकार द्वारा अगस्त 2004 में शुरू की गई थी, तब अनुसूचित जाति, अनुसूचित जनजाति, अन्य पिछड़ा वर्ग, अल्पसंख्यक समुदायों और परिवारों से संबंधित लड़कियों के लिए शैक्षिक सुविधाओं को प्रदान करने के लिए सर्व शिक्षा अभियान कार्यक्रम में एकीकृत किया गया था। शैक्षिक रूप से पिछड़े ब्लाकों में गरीबी रेखा।">कस्तूरबा गांधी बालिका विद्यालय योजना भारत सरकार द्वारा अगस्त 2004 में शुरू की गई थी, तब अनुसूचित जाति, अनुसूचित जनजाति, अन्य पिछड़ा वर्ग, अल्पसंख्यक समुदायों और परिवारों से संबंधित लड़कियों के लिए शैक्षिक सुविधाओं को प्रदान करने के लिए सर्व शिक्षा अभियान कार्यक्रम में एकीकृत किया गया था। शैक्षिक रूप से पिछड़े ब्लाकों में गरीबी रेखा।</p>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2 aria-label="स्वर्णजयंती ग्राम स्वरोजगार योजना (एसजीएसवाई)">स्वर्णजयंती ग्राम स्वरोजगार योजना (एसजीएसवाई)</h2>
+                            <hr class="star-primary">
+                            <img src="img/social.png" class="img-responsive img-centered" alt="">
+                            <p aria-label="स्वर्णजयंती ग्राम स्वरोजगार योजना (एसजीएसवाई) भारत सरकार द्वारा देश के ग्रामीण और शहरी क्षेत्रों में रहने वाले गरीबों के गरीबों को स्थायी आय प्रदान करने के लिए एक पहल की गई है। यह योजना 1 अप्रैल 1999 को शुरू हुई थी।
+एसजीएसवाई (स्वर्णजयंती ग्राम स्वरोजगार योजना) का उद्देश्य स्वयं सहायता समूहों की स्थापना के माध्यम से ग्रामीणों को स्व-रोजगार प्रदान करना है। गतिविधि समूहों की स्थापना उन लोगों की योग्यता और कौशल के आधार पर की जाती है जो उनकी अधिकतम क्षमता के लिए विकसित होती हैं। फंड एनजीओ, बैंक और वित्तीय संस्थानों द्वारा प्रदान किए जाते हैं">स्वर्णजयंती ग्राम स्वरोजगार योजना (एसजीएसवाई) भारत सरकार द्वारा देश के ग्रामीण और शहरी क्षेत्रों में रहने वाले गरीबों के गरीबों को स्थायी आय प्रदान करने के लिए एक पहल की गई है। यह योजना 1 अप्रैल 1999 को शुरू हुई थी।
+एसजीएसवाई (स्वर्णजयंती ग्राम स्वरोजगार योजना) का उद्देश्य स्वयं सहायता समूहों की स्थापना के माध्यम से ग्रामीणों को स्व-रोजगार प्रदान करना है। गतिविधि समूहों की स्थापना उन लोगों की योग्यता और कौशल के आधार पर की जाती है जो उनकी अधिकतम क्षमता के लिए विकसित होती हैं। फंड एनजीओ, बैंक और वित्तीय संस्थानों द्वारा प्रदान किए जाते हैं</p>
+
+                            <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+    <script src="http://code.responsivevoice.org/responsivevoice.js"></script>
+		<script>
+		lang = "Hindi Female"
+			responsiveVoice.speak("हैलो मैं टिकी हूँ। जो चाहो पूछ लो", lang);
+			var key="AIzaSyA7aBNp6lB_VLU7ORr-eIbGHczyL_A72FU";
+			var langs =
+			[['Afrikaans',       ['af-ZA']],
+			 ['Bahasa Indonesia',['id-ID']],
+			 ['Bahasa Melayu',   ['ms-MY']],
+			 ['Català',          ['ca-ES']],
+			 ['Čeština',         ['cs-CZ']],
+			 ['Dansk',           ['da-DK']],
+			 ['Deutsch',         ['de-DE']],
+			 ['English',         ['en-AU', 'Australia'],
+			                     ['en-CA', 'Canada'],
+			                     ['en-IN', 'India'],
+			                     ['en-NZ', 'New Zealand'],
+			                     ['en-ZA', 'South Africa'],
+			                     ['en-GB', 'United Kingdom'],
+			                     ['en-US', 'United States']],
+			 ['Español',         ['es-AR', 'Argentina'],
+			                     ['es-BO', 'Bolivia'],
+			                     ['es-CL', 'Chile'],
+			                     ['es-CO', 'Colombia'],
+			                     ['es-CR', 'Costa Rica'],
+			                     ['es-EC', 'Ecuador'],
+			                     ['es-SV', 'El Salvador'],
+			                     ['es-ES', 'España'],
+			                     ['es-US', 'Estados Unidos'],
+			                     ['es-GT', 'Guatemala'],
+			                     ['es-HN', 'Honduras'],
+			                     ['es-MX', 'México'],
+			                     ['es-NI', 'Nicaragua'],
+			                     ['es-PA', 'Panamá'],
+			                     ['es-PY', 'Paraguay'],
+			                     ['es-PE', 'Perú'],
+			                     ['es-PR', 'Puerto Rico'],
+			                     ['es-DO', 'República Dominicana'],
+			                     ['es-UY', 'Uruguay'],
+			                     ['es-VE', 'Venezuela']],
+			 ['Euskara',         ['eu-ES']],
+			 ['Filipino',        ['fil-PH']],
+			 ['Français',        ['fr-FR']],
+			 ['Galego',          ['gl-ES']],
+			 ['Hrvatski',        ['hr_HR']],
+			 ['IsiZulu',         ['zu-ZA']],
+			 ['Íslenska',        ['is-IS']],
+			 ['Italiano',        ['it-IT', 'Italia'],
+			                     ['it-CH', 'Svizzera']],
+			 ['Lietuvių',        ['lt-LT']],
+			 ['Magyar',          ['hu-HU']],
+			 ['Nederlands',      ['nl-NL']],
+			 ['Norsk bokmål',    ['nb-NO']],
+			 ['Polski',          ['pl-PL']],
+			 ['Português',       ['pt-BR', 'Brasil'],
+			                     ['pt-PT', 'Portugal']],
+			 ['Română',          ['ro-RO']],
+			 ['Slovenščina',     ['sl-SI']],
+			 ['Slovenčina',      ['sk-SK']],
+			 ['Suomi',           ['fi-FI']],
+			 ['Svenska',         ['sv-SE']],
+			 ['Tiếng Việt',      ['vi-VN']],
+			 ['Türkçe',          ['tr-TR']],
+			 ['Ελληνικά',        ['el-GR']],
+			 ['български',       ['bg-BG']],
+			 ['Pусский',         ['ru-RU']],
+			 ['Српски',          ['sr-RS']],
+			 ['Українська',      ['uk-UA']],
+			 ['한국어',            ['ko-KR']],
+			 ['中文',             ['cmn-Hans-CN', '普通话 (中国大陆)'],
+			                     ['cmn-Hans-HK', '普通话 (香港)'],
+			                     ['cmn-Hant-TW', '中文 (台灣)'],
+			                     ['yue-Hant-HK', '粵語 (香港)']],
+			 ['日本語',           ['ja-JP']],
+			 ['हिन्दी',            ['hi-IN']],
+			 ['ภาษาไทย',         ['th-TH']]];
+
+			var final_transcript = '';
+			var recognizing = false;
+			var ignore_onend;
+			var start_timestamp;
+			if (!('webkitSpeechRecognition' in window)) {
+			  	upgrade();
+			}
+			else {
+			  	start_button.style.display = 'inline-block';
+			  	var recognition = new webkitSpeechRecognition();
+				recognition.continuous = true;
+
+				recognition.onstart = function() {
+					recognizing = true;
+					start_img.src = 'img/mic-animate.gif';
+				};
+
+				recognition.onerror = function(event) {
+					if (event.error == 'no-speech') {
+					  	start_img.src = 'img/mic.gif';
+					  	ignore_onend = true;
+					}
+					if (event.error == 'audio-capture') {
+						start_img.src = 'img/mic.gif';
+						ignore_onend = true;
+					}
+				};
+
+				recognition.onend = function() {
+					recognizing = false;
+					if (ignore_onend) {
+					  	return;
+					}
+					start_img.src = 'img/mic.gif';
+					if (!final_transcript) {
+					  	return;
+					}
+				};
+
+				recognition.onresult = function(event) {
+					if (typeof(event.results) == 'undefined') {
+						recognition.onend = null;
+						recognition.stop();
+						upgrade();
+						return;
+					}
+					for (var i = event.resultIndex; i < event.results.length; ++i) {
+					  	if (event.results[i].isFinal) {
+					    	final_transcript += event.results[i][0].transcript;
+					  	}
+					}
+					final_transcript = capitalize(final_transcript);
+					console.log(linebreak(final_transcript));
+					console.log(recognition.lang);
+					// detect now
+					final_translated_query=final_transcript.replace(/ /g, "%20");
+					final_transcript="";
+					console.log(final_translated_query);
+					var xhttp = new XMLHttpRequest();
+					xhttp.onreadystatechange = function() {
+					  	if (this.readyState == 4 && this.status == 200) {
+					  		var i, x, xmlDoc = this.responseXML;
+					  		console.log(xmlDoc);
+					  		x = xmlDoc.getElementsByTagName('DetectedLang');
+						    i = x.item(0).attributes.getNamedItem("lang").value;
+					    	console.log(i);
+					  //   	x = xmlDoc.getElementsByTagName("title")[0];
+							// txt = x.getAttribute("lang");
+					    	// tts = z["lang"];
+
+
+					    	var xhttp1 = new XMLHttpRequest();
+			                xhttp1.onreadystatechange = function() {
+			                  	if (this.readyState == 4 && this.status == 200) {
+			                  		var x1, TextDoc = this.responseText;
+							  		console.log(TextDoc);
+							  		x1 = JSON.parse(TextDoc);
+							  		ToBeQueried = x1["text"][0];
+							  		for(it=0;it<ToBeQueried.length;it++) {
+							  			if(ToBeQueried[it]!=' ')
+							  				break
+							  			else
+							  				ToBeQueried.slice(1);
+							  		}
+							  		ToBeQueried=ToBeQueried.replace(/ /g, "+");
+							  		ToBeQueried=ToBeQueried.replace(/,/g, "");
+							  		console.log(ToBeQueried);
+							  		// x = xmlDoc.getElementsByTagName('DetectedLang');
+								   //  i = x.item(0).attributes.getNamedItem("lang").value;
+							    // 	console.log(i);
+			        //             	z = JSON.parse(this.responseText);
+			        //             	tts = z["TreatmentDescription"];
+			                    	// responsiveVoice.speak(ToBeQueried);
+
+
+			                    	var xhttp2 = new XMLHttpRequest();
+					                xhttp2.onreadystatechange = function() {
+					                  	if (this.readyState == 4 && this.status == 200) {
+					                  		var i2, x2, TextDoc1 = this.responseText;
+									  		console.log(TextDoc1);
+									  		x2 = JSON.parse(TextDoc1);
+									  		Abstract = x2["Abstract"];
+									  		AbstractURL = x2["AbstractURL"]
+									  		if(Abstract!="") {
+										  		console.log(Abstract);
+										  		// x1 = JSON.parse(TextDoc1);
+										  		// ToBeQueried = x1["text"];
+										  		// console.log(ToBeQueried);
+										  		// x = xmlDoc.getElementsByTagName('DetectedLang');
+											   //  i = x.item(0).attributes.getNamedItem("lang").value;
+										    // 	console.log(i);
+						        //             	z = JSON.parse(this.responseText);
+						        // //             	tts = z["TreatmentDescription"];
+						        //             	// responsiveVoice.speak(ToBeQueried);
+						                    	var xhttp3 = new XMLHttpRequest();
+								                xhttp3.onreadystatechange = function() {
+								                  	if (this.readyState == 4 && this.status == 200) {
+								                  		var i2, x3, TextDoc2 = this.responseText;
+												  		console.log(TextDoc2);
+												  		x3 = JSON.parse(TextDoc2);
+												  		Abstract = x3["text"][0];
+												  		console.log(Abstract);
+												  		// x1 = JSON.parse(TextDoc1);
+												  		// ToBeQueried = x1["text"];
+												  		// console.log(ToBeQueried);
+												  		// x = xmlDoc.getElementsByTagName('DetectedLang');
+													   //  i = x.item(0).attributes.getNamedItem("lang").value;
+												    // 	console.log(i);
+								        //             	z = JSON.parse(this.responseText);
+								        //             	tts = z["TreatmentDescription"];
+								        				lang = "Hindi Female"
+								                    	responsiveVoice.speak(Abstract, lang);
+								                    	final_transcript="";
+								                    	final_translated_query="";
+								                    	x=""
+								                    	i=""
+								               			x1=""
+								               			x2=""
+								               			x3=""
+								               			i1=""
+								               			i2=""
+														startButton();
+													}
+							                  	}
+							                  	xhttp3.open("GET", "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20170615T212043Z.d9b8696e69718477.7afddaea99d8fe9aff7f1530a3f2c5e99b976d41&text="+Abstract+"&lang=hi", true);
+							                	xhttp3.send();
+						                  	}
+						                  	else if(AbstractURL!="") {
+						                  		var xhttp4 = new XMLHttpRequest();
+								                xhttp4.onreadystatechange = function() {
+								                  	if (this.readyState == 4 && this.status == 200) {
+								                  		var i2, x3, TextDoc2 = this.responseText;
+												  		console.log(TextDoc2);
+												  		x3 = JSON.parse(TextDoc2);
+												  		Abstract = x3["text"][0];
+												  		console.log(Abstract);
+												  		// x1 = JSON.parse(TextDoc1);
+												  		// ToBeQueried = x1["text"];
+												  		// console.log(ToBeQueried);
+												  		// x = xmlDoc.getElementsByTagName('DetectedLang');
+													   //  i = x.item(0).attributes.getNamedItem("lang").value;
+												    // 	console.log(i);
+								        //             	z = JSON.parse(this.responseText);
+								        //             	tts = z["TreatmentDescription"];
+								        				// lang = "Hindi Female"
+								                    	responsiveVoice.speak(Abstract, lang);
+								                    	recognizing.stop();
+								                    	final_transcript="";
+								                    	final_translated_query="";
+								                    	x=""
+								                    	i=""
+								               			x1=""
+								               			x2=""
+								               			x3=""
+								               			i1=""
+								               			i2=""
+														startButton();
+													}
+												}
+												xhttp4.open("GET", "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20170615T212043Z.d9b8696e69718477.7afddaea99d8fe9aff7f1530a3f2c5e99b976d41&text="+Abstract+"&lang=hi", true);
+							                	xhttp4.send();
+						                  	}
+						                }
+							                // xhr.setRequestHeader("X-Mashape-Authorization", "YOUR-MASHAPE-KEY");
+							                // https://duckduckgo-duckduckgo-zero-click-info.p.mashape.com/?callback=process_duckduckgo&format=json&no_html=1&no_redirect=1&q=DuckDuckGo&skip_disambig=1
+
+
+					                };
+					                // xhr.setRequestHeader("X-Mashape-Authorization", "YOUR-MASHAPE-KEY");
+					                // https://duckduckgo-duckduckgo-zero-click-info.p.mashape.com/?callback=process_duckduckgo&format=json&no_html=1&no_redirect=1&q=DuckDuckGo&skip_disambig=1
+					                xhttp2.open("GET", "http://api.duckduckgo.com/?q="+ToBeQueried+"&format=json", true);
+					                xhttp2.send();
+
+			                  	}
+			                };
+			                xhttp1.open("GET", "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20170615T212043Z.d9b8696e69718477.7afddaea99d8fe9aff7f1530a3f2c5e99b976d41&text="+final_translated_query+"&lang=en", true);
+			                xhttp1.send();
+
+
+
+					  	}
+					};
+					xhttp.open("GET", "https://translate.yandex.net/api/v1.5/tr/detect?key=trnsl.1.1.20170615T212043Z.d9b8696e69718477.7afddaea99d8fe9aff7f1530a3f2c5e99b976d41&text="+final_translated_query, true);
+					xhttp.send();
+
+
+
+
+
+
+
+				};
+			}
+
+			function upgrade() {
+			  	start_button.style.visibility = 'hidden';
+			}
+
+			var two_line = /\n\n/g;
+			var one_line = /\n/g;
+			function linebreak(s) {
+			  return s.replace(two_line, '<p></p>').replace(one_line, '<br>');
+			}
+
+			var first_char = /\S/;
+			function capitalize(s) {
+			  return s.replace(first_char, function(m) { return m.toUpperCase(); });
+			}
+
+
+			function startButton(event) {
+			  if (recognizing) {
+			    recognition.stop();
+			    return;
+			  }
+			  final_transcript = '';
+			  recognition.lang = 'hi-IN';
+			  recognition.start();
+			  ignore_onend = false;
+			  start_img.src = 'img/mic-slash.gif';
+			  start_timestamp = event.timeStamp;
+			}
+
+			var current_style;
+		</script>
+
+	<!-- 	<script>
+  (function() {
+    var cx = '014781775147960125638:kxgcxk8rjda';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<!--  <gcse:search></gcse:search> -->
+
+
+</body>
+
+</html>
